@@ -16,6 +16,7 @@ body {
     border-radius: 5px;
     text-decoration: none;
     display: inline-block;
+    cursor: pointer;
 }
 
 .sec-padding {
@@ -202,10 +203,64 @@ img {
 }
 
 /*=========================================
+                Contact Style
+=========================================== */
+form {
+    height: auto;
+    max-width: 450px;
+    padding: 35px 30px;
+    margin-left: auto;
+    background: linear-gradient(320deg, #f7dbff, #e7edff);
+    border-radius: 20px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+input,
+textarea {
+    color: #444444;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    background: #ffffff;
+    margin: 10px;
+    box-sizing: content-box;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #777777;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+}
+
+button.primary-btn {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 100%;
+    margin: 10px;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+}
+
+/*=========================================
             Footer Style
 =========================================*/
 footer {
-    margin-top: 100px;
     background: #222130;
     padding: 60px 0;
     text-align: center;
